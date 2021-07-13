@@ -9,8 +9,6 @@ img = cv2.imread(path)
 pointsList = []
 
 # User-defined function of marking circles
-
-
 def mousePoints(event, x, y, flags, params):
     if event == cv2.EVENT_LBUTTONDOWN:
         size = len(pointsList)
